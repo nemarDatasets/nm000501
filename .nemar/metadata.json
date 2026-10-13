@@ -1,0 +1,68 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Haobo Zhang": {},
+    "Daohan Zhang": {},
+    "Jinsong Wu": {},
+    "Yuanning Li": {},
+    "Junfeng Lu": {}
+  },
+  "title": "ECoG_Tonal_Speech_Perception",
+  "license": "CC-BY-4.0",
+  "dataset_type": "derivative",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "ieeg"
+  ],
+  "resource_type_specific": "iEEG Dataset",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000501",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000501",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.57760/sciencedb.27618",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    }
+  ],
+  "sizes": [
+    "665 MB (21 files)"
+  ],
+  "formats": [
+    ".edf",
+    ".json",
+    ".tsv",
+    ".yml"
+  ],
+  "description": "Electrocorticography (ECoG) recordings collected at Huashan Hospital during perception of tonal speech. The signal provided is the high-gamma amplitude envelope (70-150 Hz Hilbert transform) rather than raw voltage, converted from NWB to EDF and organized in BIDS format. The dataset accompanies a Scientific Data publication and supports investigation of neural encoding of lexical tone in speech perception.",
+  "methods_description": "Original NWB iEEG series were processed by the authors to derive the 70-150 Hz Hilbert high-gamma envelope, then exported to EDF with values stored in microvolts. Round-trip conversion error per file is documented in convert_report.json. One misnamed duplicate NWB file (sub-01 ses-05 run-05) was excluded.",
+  "keywords": [
+    {
+      "term": "Electrocorticography"
+    },
+    {
+      "term": "ECoG"
+    },
+    {
+      "term": "speech perception"
+    },
+    {
+      "term": "lexical tone"
+    },
+    {
+      "term": "high-gamma envelope"
+    },
+    {
+      "term": "Mandarin"
+    }
+  ],
+  "source_hash": "b2b289526699e56162b8aac2917a13323bbd5a398f82759b1355825bb478f438"
+}
