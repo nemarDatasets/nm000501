@@ -1,0 +1,6 @@
+{
+ "source": "ScienceDB c4d82d65 V5",
+ "doi": "10.57760/sciencedb.27618",
+ "nwb_dir": "work/scidb-huashan/files/V5/ECoG_Tonal_Speech_Perception_dataset",
+ "note": "Original NWB retained on Voyager; EDF is the BIDS ingest."
+}

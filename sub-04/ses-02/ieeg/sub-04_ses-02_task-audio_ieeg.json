@@ -1,0 +1,12 @@
+{
+ "TaskName": "Mandarin Speech Perception",
+ "SamplingFrequency": 400.0,
+ "RecordingDuration": 283.0,
+ "PowerLineFrequency": 50.0,
+ "SoftwareFilters": "n/a",
+ "RecordingType": "continuous",
+ "ECOGChannelCount": 256,
+ "iEEGReference": "common average",
+ "TaskDescription": "Mandarin Speech Perception",
+ "Instructions": "High-gamma ECoG when listening to the Mandarin corpus during awake craniotomy"
+}

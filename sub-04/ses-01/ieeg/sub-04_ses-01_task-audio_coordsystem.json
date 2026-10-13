@@ -1,0 +1,6 @@
+{
+    "iEEGCoordinateSystem": "ACPC",
+    "iEEGCoordinateUnits": "mm",
+    "IntendedFor": "sub-04/anat/sub-04_T1w.nii.gz",
+    "iEEGCoordinateSystemDescription": "subject native space"
+}

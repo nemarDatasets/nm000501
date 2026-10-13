@@ -1,0 +1,225 @@
+{
+ "files": [
+  {
+   "sub": "sub-01",
+   "ses": "ses-01",
+   "nsamp": 72800,
+   "nch": 128,
+   "sfreq": 400.0,
+   "dur_s": 182.0,
+   "n_events": 609,
+   "edf_bytes": 18702476,
+   "roundtrip_maxerr_uV": 0.0006705294931359518
+  },
+  {
+   "sub": "sub-01",
+   "ses": "ses-02",
+   "nsamp": 103600,
+   "nch": 128,
+   "sfreq": 400.0,
+   "dur_s": 259.0,
+   "n_events": 841,
+   "edf_bytes": 26601500,
+   "roundtrip_maxerr_uV": 0.000807107868402596
+  },
+  {
+   "sub": "sub-01",
+   "ses": "ses-03",
+   "nsamp": 85200,
+   "nch": 128,
+   "sfreq": 400.0,
+   "dur_s": 213.0,
+   "n_events": 690,
+   "edf_bytes": 21881542,
+   "roundtrip_maxerr_uV": 0.0009578927519338087
+  },
+  {
+   "sub": "sub-01",
+   "ses": "ses-04",
+   "nsamp": 108000,
+   "nch": 128,
+   "sfreq": 400.0,
+   "dur_s": 270.0,
+   "n_events": 954,
+   "edf_bytes": 27729880,
+   "roundtrip_maxerr_uV": 0.0010676769135068709
+  },
+  {
+   "sub": "sub-01",
+   "ses": "ses-05",
+   "nsamp": 98800,
+   "nch": 128,
+   "sfreq": 400.0,
+   "dur_s": 247.0,
+   "n_events": 855,
+   "edf_bytes": 25370540,
+   "roundtrip_maxerr_uV": 0.0011465982586287282
+  },
+  {
+   "sub": "sub-01",
+   "ses": "ses-06",
+   "nsamp": 109600,
+   "nch": 128,
+   "sfreq": 400.0,
+   "dur_s": 274.0,
+   "n_events": 849,
+   "edf_bytes": 28140200,
+   "roundtrip_maxerr_uV": 0.000994870483468302
+  },
+  {
+   "sub": "sub-02",
+   "ses": "ses-01",
+   "nsamp": 73200,
+   "nch": 128,
+   "sfreq": 400.0,
+   "dur_s": 183.0,
+   "n_events": 609,
+   "edf_bytes": 18803956,
+   "roundtrip_maxerr_uV": 0.0010143200406661501
+  },
+  {
+   "sub": "sub-02",
+   "ses": "ses-02",
+   "nsamp": 101200,
+   "nch": 128,
+   "sfreq": 400.0,
+   "dur_s": 253.0,
+   "n_events": 841,
+   "edf_bytes": 25990574,
+   "roundtrip_maxerr_uV": 0.0006749904806160334
+  },
+  {
+   "sub": "sub-02",
+   "ses": "ses-03",
+   "nsamp": 85600,
+   "nch": 128,
+   "sfreq": 400.0,
+   "dur_s": 214.0,
+   "n_events": 690,
+   "edf_bytes": 21983260,
+   "roundtrip_maxerr_uV": 0.0011564602085446518
+  },
+  {
+   "sub": "sub-02",
+   "ses": "ses-04",
+   "nsamp": 106800,
+   "nch": 128,
+   "sfreq": 400.0,
+   "dur_s": 267.0,
+   "n_events": 954,
+   "edf_bytes": 27424276,
+   "roundtrip_maxerr_uV": 0.0007454732217460069
+  },
+  {
+   "sub": "sub-02",
+   "ses": "ses-05",
+   "nsamp": 99200,
+   "nch": 128,
+   "sfreq": 400.0,
+   "dur_s": 248.0,
+   "n_events": 855,
+   "edf_bytes": 25479072,
+   "roundtrip_maxerr_uV": 0.0010315407846086533
+  },
+  {
+   "sub": "sub-02",
+   "ses": "ses-06",
+   "nsamp": 109200,
+   "nch": 128,
+   "sfreq": 400.0,
+   "dur_s": 273.0,
+   "n_events": 849,
+   "edf_bytes": 28035982,
+   "roundtrip_maxerr_uV": 0.000776122911949062
+  },
+  {
+   "sub": "sub-03",
+   "ses": "ses-01",
+   "nsamp": 71600,
+   "nch": 256,
+   "sfreq": 400.0,
+   "dur_s": 179.0,
+   "n_events": 609,
+   "edf_bytes": 36757826,
+   "roundtrip_maxerr_uV": 0.03507520346522375
+  },
+  {
+   "sub": "sub-03",
+   "ses": "ses-02",
+   "nsamp": 109600,
+   "nch": 256,
+   "sfreq": 400.0,
+   "dur_s": 274.0,
+   "n_events": 841,
+   "edf_bytes": 56230568,
+   "roundtrip_maxerr_uV": 0.03361815102190746
+  },
+  {
+   "sub": "sub-03",
+   "ses": "ses-03",
+   "nsamp": 93600,
+   "nch": 256,
+   "sfreq": 400.0,
+   "dur_s": 234.0,
+   "n_events": 690,
+   "edf_bytes": 48035580,
+   "roundtrip_maxerr_uV": 0.03145962842926764
+  },
+  {
+   "sub": "sub-03",
+   "ses": "ses-04",
+   "nsamp": 116800,
+   "nch": 256,
+   "sfreq": 400.0,
+   "dur_s": 292.0,
+   "n_events": 954,
+   "edf_bytes": 59921960,
+   "roundtrip_maxerr_uV": 0.018302705238406602
+  },
+  {
+   "sub": "sub-04",
+   "ses": "ses-01",
+   "nsamp": 71200,
+   "nch": 256,
+   "sfreq": 400.0,
+   "dur_s": 178.0,
+   "n_events": 609,
+   "edf_bytes": 36552132,
+   "roundtrip_maxerr_uV": 0.008547269475229324
+  },
+  {
+   "sub": "sub-04",
+   "ses": "ses-02",
+   "nsamp": 113200,
+   "nch": 256,
+   "sfreq": 400.0,
+   "dur_s": 283.0,
+   "n_events": 841,
+   "edf_bytes": 58080482,
+   "roundtrip_maxerr_uV": 0.009890576631807813
+  },
+  {
+   "sub": "sub-04",
+   "ses": "ses-03",
+   "nsamp": 91600,
+   "nch": 256,
+   "sfreq": 400.0,
+   "dur_s": 229.0,
+   "n_events": 690,
+   "edf_bytes": 47006926,
+   "roundtrip_maxerr_uV": 0.00764250236462416
+  },
+  {
+   "sub": "sub-04",
+   "ses": "ses-04",
+   "nsamp": 114800,
+   "nch": 256,
+   "sfreq": 400.0,
+   "dur_s": 287.0,
+   "n_events": 954,
+   "edf_bytes": 58899326,
+   "roundtrip_maxerr_uV": 0.01053295845915736
+  }
+ ],
+ "skipped": []
+}

@@ -1,0 +1,21 @@
+{
+ "Name": "ECoG_Tonal_Speech_Perception",
+ "BIDSVersion": "1.7.0",
+ "DatasetType": "derivative",
+ "GeneratedBy": [
+  {
+   "Name": "nwbedf-convert",
+   "Version": "1.0",
+   "Description": "NWB high-gamma envelope exported to EDF; BIDS-valid. Signal is the authors' 70-150Hz Hilbert envelope, NOT raw voltage."
+  }
+ ],
+ "License": "CC-BY-4.0",
+ "Authors": [
+  "Haobo Zhang",
+  "Daohan Zhang",
+  "Jinsong Wu",
+  "Yuanning Li",
+  "Junfeng Lu"
+ ],
+ "Acknowledgements": "Source: ScienceDB c4d82d65 V5 (10.57760/sciencedb.27618), Zhang et al. Sci Data 2026."
+}

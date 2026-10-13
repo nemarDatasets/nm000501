@@ -1,0 +1,11 @@
+{
+ "onset": {
+  "Description": "seconds from recording start"
+ },
+ "trial_type": {
+  "Description": "always pinyin"
+ },
+ "value": {
+  "Description": "pinyin syllable with tone, e.g. xian4"
+ }
+}

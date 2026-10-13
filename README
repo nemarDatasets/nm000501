@@ -1,0 +1,5 @@
+Huashan tonal speech ECoG (Zhang et al. Sci Data 2026), BIDS ingest.
+SIGNAL IS HIGH-GAMMA ENVELOPE (70-150 Hz Hilbert), not raw voltage.
+Source NWB iEEG series + *_ieeg.json document the envelope derivation.
+EDF stores envelope in uV; round-trip max error per file in convert_report.json.
+One misnamed duplicate NWB (sub-01 ses-05 run-05) excluded; requirements.txt excluded.
