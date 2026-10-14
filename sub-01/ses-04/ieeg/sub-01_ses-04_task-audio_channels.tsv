@@ -1,5 +1,5 @@
 name	type	units	low_cutoff	high_cutoff	sampling_frequency	status
-'G1'    	ECOG	uV	n/a	n/a	400.000000	good
+'G1'	ECOG	uV	n/a	n/a	400.000000	good
 'G2'	ECOG	uV	n/a	n/a	400.000000	good
 'G3'	ECOG	uV	n/a	n/a	400.000000	good
 'G4'	ECOG	uV	n/a	n/a	400.000000	good
