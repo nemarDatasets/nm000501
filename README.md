@@ -1,9 +1,15 @@
 [![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000501-blue)](https://doi.org/10.82901/nemar.nm000501)
 
 Huashan tonal speech ECoG (Zhang et al. Sci Data 2026), BIDS ingest.
-SIGNAL IS HIGH-GAMMA ENVELOPE (70-150 Hz Hilbert), not raw voltage.
-Source NWB iEEG series + *_ieeg.json document the envelope derivation.
-EDF stores envelope in uV; round-trip max error per file in convert_report.json.
+SIGNAL IS THE HIGH-GAMMA BAND (70-150 Hz band-passed voltage, 400 Hz, common average reference), not raw broadband
+voltage and not an amplitude envelope.
+The release's *_ieeg.json ("Envelope of band-passed signal via Hilbert transform") and its
+code/utils/Hilbert_transform.py call it a Hilbert envelope, and the first NEMAR versions repeated that. The stored
+values are not an envelope: in all 20 recordings every channel has mean ~0 (|mean|/SD <= 0.0004), about half of the
+samples are negative (49.7-50.0 % per channel), and 94-96 % of the power lies in 70-150 Hz (spectral peak ~79-82 Hz)
+with almost none below 20 Hz. An amplitude envelope would be positive with most of its power below 20 Hz. For the high-gamma
+envelope, take the magnitude of the analytic signal (e.g. abs(scipy.signal.hilbert(x))).
+EDF stores the signal in uV (NWB values in V x 1e6); round-trip max error per file in convert_report.json.
 One misnamed duplicate NWB (sub-01 ses-05 run-05) excluded; requirements.txt excluded.
 
 ## Ethics

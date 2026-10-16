@@ -1,0 +1,10 @@
+1.0.2 2026-10-16
+  - Signal description corrected: the data are the authors' 70-150 Hz band-passed high-gamma signal (zero mean, about half of the samples negative, 94-96 % of the power in 70-150 Hz in all 20 recordings), not a Hilbert envelope as the release metadata and the earlier README / GeneratedBy said. Data files unchanged.
+  - *_ieeg.json: SoftwareFilters gives the 70-150 Hz band-pass; *_channels.tsv: low_cutoff 70, high_cutoff 150.
+  - dataset_description.json: Version 1.0.2.
+
+1.0.1 2026-10-16
+  - NEMAR release v1.0.1 (git tag v1.0.1).
+
+1.0.0 2026-10-16
+  - NEMAR release v1.0.0 (git tag v1.0.0, DOI 10.82901/nemar.nm000501).
