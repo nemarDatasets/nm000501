@@ -1,24 +1,26 @@
 {
- "Name": "ECoG_Tonal_Speech_Perception",
- "BIDSVersion": "1.7.0",
- "DatasetType": "derivative",
- "GeneratedBy": [
-  {
-   "Name": "nwbedf-convert",
-   "Version": "1.0",
-   "Description": "NWB high-gamma envelope exported to EDF; BIDS-valid. Signal is the authors' 70-150Hz Hilbert envelope, NOT raw voltage."
-  }
- ],
- "License": "CC-BY-4.0",
- "Authors": [
-  "Haobo Zhang",
-  "Daohan Zhang",
-  "Jinsong Wu",
-  "Yuanning Li",
-  "Junfeng Lu"
- ],
- "Acknowledgements": "Source: ScienceDB c4d82d65 V5 (10.57760/sciencedb.27618), Zhang et al. Sci Data 2026.",
- "EthicsApprovals": [
-  "Huashan Hospital Institutional Review Board of Fudan University (HIRB, KY2017-437); written informed consent. Quoted from Zhang et al. 2026, Sci Data, doi:10.1038/s41597-026-07619-z, Methods: \"The study was approved by the Huashan Hospital Institutional Review Board of Fudan University (HIRB, KY2017-437), and the conducting of research complied with all relevant ethical considerations. Participants signed their names on informed consent the day before surgery and were told that the task was only for research purposes, which could be terminated at any time during the task.\""
- ]
+  "Name": "ECoG_Tonal_Speech_Perception",
+  "BIDSVersion": "1.7.0",
+  "DatasetType": "derivative",
+  "GeneratedBy": [
+    {
+      "Name": "nwbedf-convert",
+      "Version": "1.0",
+      "Description": "NWB high-gamma envelope exported to EDF; BIDS-valid. Signal is the authors' 70-150Hz Hilbert envelope, NOT raw voltage."
+    }
+  ],
+  "License": "CC-BY-4.0",
+  "Authors": [
+    "Haobo Zhang",
+    "Daohan Zhang",
+    "Jinsong Wu",
+    "Yuanning Li",
+    "Junfeng Lu"
+  ],
+  "Acknowledgements": "Source: ScienceDB c4d82d65 V5 (10.57760/sciencedb.27618), Zhang et al. Sci Data 2026.",
+  "EthicsApprovals": [
+    "Huashan Hospital Institutional Review Board of Fudan University (HIRB, KY2017-437); written informed consent. Quoted from Zhang et al. 2026, Sci Data, doi:10.1038/s41597-026-07619-z, Methods: \"The study was approved by the Huashan Hospital Institutional Review Board of Fudan University (HIRB, KY2017-437), and the conducting of research complied with all relevant ethical considerations. Participants signed their names on informed consent the day before surgery and were told that the task was only for research purposes, which could be terminated at any time during the task.\""
+  ],
+  "DatasetDOI": "10.82901/nemar.nm000501",
+  "Version": "1.0.0"
 }
