@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Zhang-2026-fine-10.1038/s41597-026-07619-z",
-  "description": "This dataset contains electrocorticography (ECoG) recordings from patients at Huashan Hospital during speech perception in a tonal language (Mandarin). The signal is the 70-150 Hz high-gamma Hilbert envelope rather than raw voltage, converted from NWB to EDF in a BIDS-valid structure. It supports investigation of fine-grained spatiotemporal neural dynamics of tonal speech perception.",
-  "methods_description": "Intracranial ECoG was recorded from participants during a speech perception task, with written informed consent obtained the day before surgery. The original NWB iEEG series were processed to a 70-150 Hz Hilbert high-gamma envelope and exported to EDF in microvolts, with round-trip conversion error reported per file.",
+  "description": "This dataset provides electrocorticography (ECoG) recordings from patients at Huashan Hospital during speech perception in a tonal language. The signal is the high-gamma envelope (70-150 Hz Hilbert transform) rather than raw voltage, converted from NWB to EDF in BIDS format. It supports fine-grained spatiotemporal analysis of neural responses to tonal speech.",
+  "methods_description": "Intracranial ECoG was recorded during a speech perception task, with participants giving informed consent the day before surgery. The authors' 70-150 Hz Hilbert high-gamma envelope was exported from NWB to EDF in microvolts, with round-trip conversion error reported per file.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -74,5 +74,5 @@
     ".tsv",
     ".yml"
   ],
-  "source_hash": "9114c53bb6cbd5025eb3b6885a59a3a64524db9298200cd8604e3ab1d92cde27"
+  "source_hash": "e6f2aca9da4d942f88f7bdf6af87fd63401a0227b6e7e6fa8d7cb64404235ebc"
 }
