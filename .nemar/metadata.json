@@ -1,9 +1,9 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
-  "title": "ECoG_Tonal_Speech_Perception",
-  "description": "This dataset contains electrocorticography (ECoG) recordings from patients at Huashan Hospital during a speech perception task in a tonal language (Mandarin). The BIDS version provides the high-gamma envelope (70-150 Hz Hilbert transform) rather than raw voltage, converted from NWB to EDF. It supports fine-grained spatiotemporal analysis of neural responses to tonal speech.",
-  "methods_description": "Intracranial ECoG was recorded from participants during a speech perception task, with written informed consent given the day before surgery. The authors' 70-150 Hz Hilbert high-gamma envelope was derived from the source NWB iEEG series and exported to EDF in microvolts. Round-trip conversion error is reported per file.",
+  "title": "Zhang-2026-fine-10.1038/s41597-026-07619-z",
+  "description": "This dataset contains electrocorticography (ECoG) recordings from patients at Huashan Hospital during speech perception in a tonal language (Mandarin). The signal is the 70-150 Hz high-gamma Hilbert envelope rather than raw voltage, converted from NWB to EDF in a BIDS-valid structure. It supports investigation of fine-grained spatiotemporal neural dynamics of tonal speech perception.",
+  "methods_description": "Intracranial ECoG was recorded from participants during a speech perception task, with written informed consent obtained the day before surgery. The original NWB iEEG series were processed to a 70-150 Hz Hilbert high-gamma envelope and exported to EDF in microvolts, with round-trip conversion error reported per file.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -25,6 +25,9 @@
       "term": "ECoG"
     },
     {
+      "term": "iEEG"
+    },
+    {
       "term": "speech perception"
     },
     {
@@ -32,9 +35,6 @@
     },
     {
       "term": "high-gamma envelope"
-    },
-    {
-      "term": "Mandarin"
     }
   ],
   "related_identifiers": [
@@ -74,5 +74,5 @@
     ".tsv",
     ".yml"
   ],
-  "source_hash": "c267968c59197a5a13f50ebb277b56c4f5696a8c8d45b0d3c4681200d825e5f5"
+  "source_hash": "9114c53bb6cbd5025eb3b6885a59a3a64524db9298200cd8604e3ab1d92cde27"
 }
