@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "ECoG_Tonal_Speech_Perception",
-  "description": "Electrocorticography (ECoG) recordings from patients undergoing surgery at Huashan Hospital while they perceived speech in a tonal language (Mandarin). This derivative release provides the high-gamma amplitude envelope (70-150 Hz Hilbert transform) rather than raw voltage, converted from NWB to EDF in a BIDS-compliant structure. It supports study of the fine-grained spatiotemporal neural dynamics of tonal speech perception.",
-  "methods_description": "Intracranial ECoG was recorded during a speech perception task, with participants giving written informed consent the day before surgery. The authors' 70-150 Hz Hilbert high-gamma envelope, originally stored in NWB, was exported to EDF (in uV) with round-trip conversion error reported per file.",
+  "description": "This dataset contains electrocorticography (ECoG) recordings from patients at Huashan Hospital during a speech perception task in a tonal language (Mandarin). The BIDS version provides the high-gamma envelope (70-150 Hz Hilbert transform) rather than raw voltage, converted from NWB to EDF. It supports fine-grained spatiotemporal analysis of neural responses to tonal speech.",
+  "methods_description": "Intracranial ECoG was recorded from participants during a speech perception task, with written informed consent given the day before surgery. The authors' 70-150 Hz Hilbert high-gamma envelope was derived from the source NWB iEEG series and exported to EDF in microvolts. Round-trip conversion error is reported per file.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -25,9 +25,7 @@
       "term": "ECoG"
     },
     {
-      "term": "Speech Perception",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D013067"
+      "term": "speech perception"
     },
     {
       "term": "tonal language"
@@ -72,8 +70,9 @@
   "formats": [
     ".edf",
     ".json",
+    ".md",
     ".tsv",
     ".yml"
   ],
-  "source_hash": "72f678df32df520ce9497eb27145428f582793d88e7650392c96eb1ad5b31bac"
+  "source_hash": "c267968c59197a5a13f50ebb277b56c4f5696a8c8d45b0d3c4681200d825e5f5"
 }
