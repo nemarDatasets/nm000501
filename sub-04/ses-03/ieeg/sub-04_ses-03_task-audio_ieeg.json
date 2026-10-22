@@ -3,7 +3,13 @@
  "SamplingFrequency": 400.0,
  "RecordingDuration": 229.0,
  "PowerLineFrequency": 50.0,
- "SoftwareFilters": "n/a",
+ "SoftwareFilters": {
+  "HighGammaBandPass": {
+   "Description": "Authors' preprocessing: 3 kHz ECoG resampled to 400 Hz and band-passed to 70-150 Hz high gamma (Gaussian filter bank, release code/utils/Hilbert_transform.py; common average reference per the release *_ieeg.json). The release metadata say a Hilbert envelope was taken, but the stored signal is the band-passed signal itself, not its envelope (zero mean, about half of the samples negative, 94-96 % of the power in 70-150 Hz).",
+   "LowCutoff (Hz)": 70,
+   "HighCutoff (Hz)": 150
+  }
+ },
  "RecordingType": "continuous",
  "ECOGChannelCount": 256,
  "iEEGReference": "common average",
